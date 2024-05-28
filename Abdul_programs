@@ -13,7 +13,7 @@ return(a*a);
 }
 public int cube(int a)
 {
-return(a*a*);
+return(a*a*a);
 }
 public void asciivalues(int a)
 {
