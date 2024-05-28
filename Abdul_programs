@@ -17,7 +17,7 @@ return(a*a*a);
 }
 public void asciivalues(int a)
 {
-char ch=a;
+char ch=(char)a;
 Console.WriteLine(ch);
 }
 public static void Main(String[] args)
