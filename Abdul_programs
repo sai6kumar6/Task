@@ -3,6 +3,16 @@ using namespace Abdul
 {
 public class hello
 {
+public void evenorodd(int a)
+{
+if(a%2==0)
+{
+Console.WriteLine("it is an even number");
+}
+else
+{
+Console.WriteLine("it is an odd number);
+}
 public void helloworld()
 {
 Console.WriteLine("Hello World");
@@ -15,10 +25,10 @@ public int cube(int a)
 {
 return(a*a*a);
 }
-public void asciivalues(int a)
+public void asciivalues(char a)
 {
-char ch=(char)a;
-Console.WriteLine(ch);
+int i=a;
+Console.WriteLine(i);
 }
 public static void Main(String[] args)
 {
@@ -28,9 +38,9 @@ Console.WriteLine(obj.square(2));
 Console.WriteLine(obj.cube(2));
 for(int i=65;i<=90;i++)
 {
-obj.asciivalues(i);
+char ch=(char)i;
+obj.asciivalues(ch);
 }
-
-
+obj.evenorodd(Convert.ToInt32(Console.WriteLine());
 }
 }
