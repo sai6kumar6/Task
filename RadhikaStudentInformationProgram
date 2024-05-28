@@ -1,0 +1,24 @@
+using System;
+namespace StudentInformation
+{
+class Program
+{
+static void Main(string[] args);
+{
+Console.WriteLine("Enter student name");
+String sname = Console.ReadLine();
+Console.WriteLine("Enter student age");
+byte sage = Convert.ToByte(Console.ReadLine());
+Console.WriteLine("Enter student college name");
+String scn= Console.ReadLine();
+Console.WriteLine("Enter student address");
+String sa= Console.ReadLine();
+Console.WriteLine("Student name is {0}", sname);
+Console.WriteLine("Student Age is {0}", sage);
+Console.WriteLine("Student College name is {0}", scn);
+Console.WriteLine("Student Address is {0}", sa);
+Console.WriteLine();
+Console.ReadLine();
+}
+}
+}
