@@ -1,0 +1,54 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Linq;
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp8
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Add();
+
+                Console.WriteLine("Hello Wrold");
+
+            Add();
+            Div();
+            Mod();
+
+            Console.ReadLine();
+        }
+        private static void Add()
+        {
+            int a, b, c;
+
+            a = 10;
+            b = 20;
+            c = a + b;
+            Console.WriteLine("sum of a and b is {0}", c);
+        }
+        private static void Div()
+        {
+            int a, b, c;
+            a = 100;
+            b = 20;
+            c = a / b;
+            Console.WriteLine("Division of a and b is {0}",c);
+        }
+        private static void Mod()
+        { 
+            int a, b, c;
+        a = 10;
+            b = 20;
+            c = a + b;
+
+          Console.WriteLine("modatus of a and b is {0}",c);
+    }
+}
+}
+
+
