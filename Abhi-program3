@@ -1,0 +1,24 @@
+using System;
+namespace square
+{
+class program2
+{
+static void Main(string[]args)
+{
+Console.WriteLine("please enter Student name");
+string name = Console.ReadLine();
+Console.WriteLine("please enter Student age");
+byte age=Convert.ToByte(Console.ReadLine());
+Console.WriteLine("Student college name");
+string college = Console.ReadLine();
+Console.WriteLine("please enter address");
+string address = Console.ReadLine();
+Console.WriteLine();
+Console.WriteLine("Student name = {0}",name);
+Console.WriteLine("Student age = {0}", age);
+Console.WriteLine("Student college name = {0}",college);
+Console.WriteLine("Student address is = {0}", address);
+Console.ReadLine();
+}
+}
+}
