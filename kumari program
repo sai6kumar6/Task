@@ -1,0 +1,13 @@
+using System;
+namespace First
+{
+class Example
+{
+static void Main( string [] args)
+{
+Console.WriteLine("welcome");
+Console.WriteLine("Hello World");
+Console.ReadLine();
+}
+}
+}
