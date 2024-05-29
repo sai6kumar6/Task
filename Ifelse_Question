@@ -1,0 +1,27 @@
+using System;
+
+
+namespace IfElse_problem
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int a=Convert.ToInt32(Console.ReadLine());
+            int b=Convert.ToInt32(Console.ReadLine());
+            if(b==0)
+            {
+                Console.WriteLine("it is not possible mathematically");
+            }
+            else if(a%b==0)
+            {
+                Console.WriteLine("divisible");
+            }
+            else
+            {
+                Console.WriteLine("Not divisible");
+            }
+            Console.ReadLine();
+        }
+    }
+}
