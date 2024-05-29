@@ -1,0 +1,27 @@
+ namespace ConsoleApp10
+{
+    internal class Program
+    {
+        
+            Console.ReadLine();static void Main(string[] args)
+        {
+            Console.WriteLine("Please enter a value of A");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Please enter a value of B");
+            int b = Convert.ToInt32(Console.ReadLine());
+
+            if (b == 0)
+            {
+                Console.WriteLine("Indefinite result");
+            }
+            else if (a % b == 0)
+            {
+                Console.WriteLine("A is Divisible by B");
+            }
+            else
+            {
+                Console.WriteLine("A is not divisible by B");
+            }
+        }
+    }
+}
