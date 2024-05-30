@@ -1,0 +1,21 @@
+using System;
+namespace EvenOrOdd
+{
+class Program
+{
+static void Main(string[] args)
+{
+Console.WriteLine("Enter a number");
+byte a=Convert.ToByte(Console.ReadLine());
+if(a%2 == 0)
+{
+Console.WriteLine("this is a even number");
+}
+else
+{
+Console.WriteLine("This is a Odd number");
+}
+Console.ReadLine();
+}
+}
+}
