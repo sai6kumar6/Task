@@ -1,0 +1,21 @@
+using System;
+namespace Voting
+{
+class Program
+{
+static void Main(string[] args)
+{
+Console.WriteLine("Enter your age");
+byte a=Convert.ToByte(Console.ReadLine());
+if (a >= 18)
+{
+    Console.WriteLine("your eligible for voting");
+}
+else
+{
+    Console.WriteLine("your not eligible for voting");
+}
+Console.ReadLine();
+}
+}
+}
