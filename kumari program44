@@ -1,0 +1,20 @@
+tatic void Main(string[] args)
+        {
+            Console.WriteLine("Please enter a number");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("please enter b number");
+            int b = Convert.ToInt32(Console.ReadLine());
+            if (b == 0)
+            {
+                Console.WriteLine("you have entered zero,please enter another number ");
+                b = Convert.ToInt32(Console.ReadLine());
+            }
+            int c = a % b;
+            if (c == 0)
+            {
+                Console.WriteLine("number is divisible");
+            }
+
+            else
+            {
+                Console.WriteLine("number is not divisible");
