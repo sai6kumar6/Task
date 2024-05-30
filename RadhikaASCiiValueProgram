@@ -1,0 +1,23 @@
+using System;
+namespace ASCii
+{
+class Program
+{
+static void Main(string[] args)
+{
+int ASCii;
+for (ASCii = 97; ASCii <= 122; ASCii++) 
+{
+Console.WriteLine(Convert.ToChar(ASCii));
+}
+Console.ReadLine();
+
+int ASCii;
+for (ASCii = 65; ASCii <= 90;) 
+{
+Console.WriteLine(Convert.ToChar(ASCii++));
+}
+Console.ReadLine();
+}
+}
+}
