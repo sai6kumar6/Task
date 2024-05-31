@@ -1,0 +1,34 @@
+using System;
+namespace DObInfo
+{
+class Program
+{
+static void Main(string[] args)
+{
+Ketan:
+Console.WriteLine("Enter Your Name");
+String s = (Console.ReadLine());
+switch (s)
+{
+case "Radhika":
+Console.WriteLine("My Birthday is on 01/09/1999");
+break;
+case "Praveen":
+console.WriteLine("My Birthday is on 15/01/1997");
+break;
+case "Abdul":
+Console.WriteLine("My Birthday is on 13/05/2000");
+break;
+case "Abhiram":
+Console.WriteLine("My Birthday is on 22/07/2003");
+break;
+default:
+{
+Console.WriteLine("Please Enter Valid name");
+goto Ketan;
+}
+}
+Console.ReadLine();
+}
+}
+}
