@@ -1,0 +1,30 @@
+using System;
+namespace EvenOrOdd
+{
+class Program
+{
+static void Main(string[] args)
+{
+int a = 10;
+int b = 30;
+if(a%2==0)
+{
+    Console.WriteLine("it's an even number");
+    Console.ReadLine();
+}
+
+
+Console.WriteLine("Enter a number");
+int a=Convert.ToInt32(Console.ReadLine());
+if (a%2==0)
+{
+    Console.WriteLine("The Number is Even");
+}
+else
+{
+    Console.WriteLine("The Number is Odd");
+    Console.ReadLine();
+}
+}
+}
+}
