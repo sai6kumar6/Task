@@ -1,0 +1,36 @@
+            Console.WriteLine("Please enter any one of the  below mentioned options \n\n 1 for Addition \n 2 for Substraction\n 3 for Multiplication\n 4 for Division");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("\n\nPlease enter two numbers on which arithmatic operation needs to perform");
+            int b = Convert.ToInt32(Console.ReadLine());
+            int c = Convert.ToInt32(Console.ReadLine());
+
+
+            switch (a)
+            {
+                case 1:
+                    int add = b + c;
+                    Console.WriteLine("addition is {0}", add);
+                    break;
+                case 2:
+                    int sub = b - c;
+                    Console.WriteLine("Substraction is {0}",sub );
+                    break;
+                case 3:
+                    int mul = b * c;
+                    Console.WriteLine("Multiplication is {0}", mul);
+                    break;
+
+                case 4:
+                    int div = b / c;
+                    Console.WriteLine("Multiplication is {0}", div);
+                    break;
+                
+                default:
+                    Console.WriteLine("Please enter valid option");
+                    break;
+
+            }
+            Console.ReadLine();
+        }
+    }
+}
