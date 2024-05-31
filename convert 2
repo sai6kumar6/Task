@@ -1,0 +1,25 @@
+
+        static void Main(string[] args)
+        {
+            string name = "kumari";
+            string password = "123456";
+            Console.WriteLine("please enter your name");
+            string name1 = Convert.ToString(Console.ReadLine());
+            Console.WriteLine("please enter your password");
+            string password1 = Convert.ToString(Console.ReadLine());
+
+            if (name1 == name && password1 == password)
+            {
+                Console.WriteLine("no mani");
+
+            }
+            else
+
+            {
+                Console.WriteLine("yes mani");
+
+            }
+            Console.ReadLine();
+        }
+    }
+}
