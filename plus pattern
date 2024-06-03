@@ -1,0 +1,38 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace pattern2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            for (int i = -3; i <=3; i++)
+            {
+                for (int j = -3; j <= 3; j++)
+                {
+                    if (i == 0 || i == 3||i==-3)
+                    {
+                        Console.Write("*");
+                    }
+                    else
+                    {
+                        if(j==-3||j==0||j==3)
+                        {
+                            Console.Write("*");
+                        }
+                        else
+                        {
+                            Console.Write(" ");
+                        }
+                    }
+                }
+                Console.WriteLine();
+            }
+            
+        }
+    }
+}
