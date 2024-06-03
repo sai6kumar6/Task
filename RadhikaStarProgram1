@@ -1,0 +1,20 @@
+using System;
+namespace StarProgram1
+{
+class Program
+{
+static void Main(string[] args)
+{
+int i, j;
+for (i = 0; i <= 4; i++)
+{
+    for (j = 0; j <= i; j++)
+    {
+        Console.Write("*");
+    }
+    Console.WriteLine();
+}
+   Console.ReadLine();
+}
+}
+}
