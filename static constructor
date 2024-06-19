@@ -1,0 +1,40 @@
+using System;
+namespace ConsoleApp31
+{
+     class Employee
+    {
+        int Id;
+        string Empname;
+        int Empsalary;
+        static string companyname;
+        static string companyphone;
+        static Employee()
+        {
+            companyname = "MNC";
+            companyphone = "2998756";
+        }
+        internal Employee(int id, string empname, int empsalary)
+        {
+            Id = id;
+            Empname = empname;
+            Empsalary = empsalary;
+        }
+        internal void empdisplay()
+        {
+            Console.WriteLine("Enter a emp id{0}", Id);
+            Console.WriteLine("Enter a empname{0}", Empname);
+            Console.WriteLine("Enter a empsal{0}",Empsalary);
+            Console.WriteLine("Enter a Companyname{0}",companyname);
+            Console.WriteLine("Enter a Companyphone{0}", companyphone);
+        }
+
+        static void Main(string[] args)
+        {
+            Employee obj = new Employee(1002, "abhi", 2003);
+            obj.empdisplay();
+            Console.ReadLine();
+
+
+        }
+    }
+}
