@@ -1,0 +1,50 @@
+
+namespace static_constructor
+{
+    class student
+    {
+        int sid;
+        string sname;
+        int sage;
+        int sfee;
+        static string clgname;
+
+        static student()
+        {
+            clgname = "svj";
+
+        }
+        internal student(int Sid, string Sname, int Sage, int Sfee)
+        {
+            sid = Sid;
+            sname = Sname;
+            sage = Sage;
+            sfee = Sfee;
+        }
+        internal void Display()
+        {
+            Console.WriteLine("sudent id is {0}", sid);
+            Console.WriteLine("studnet name is {0}", sname);
+            Console.WriteLine("student age is {0}", sage);
+            Console.WriteLine("student fee is {0}", sfee);
+            Console.WriteLine("student clgname is {0}", clgname);
+
+        }
+        static void Main(string[] args)
+        {
+            student obj = new student(1443, "siriakka", 23, 45000);
+            obj.Display();
+            student siva = new student(1222, "sivagaru", 29, 50000);
+            siva.Display();
+            Console.ReadLine();
+        }
+
+    }
+}        
+            
+        
+ 
+      
+        
+    
+
