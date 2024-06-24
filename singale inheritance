@@ -1,0 +1,42 @@
+using System;
+using System.Collections.Generic;
+using System.Data.Common;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace singleinheritance
+{
+    public class employeeinto
+    {
+        public int id = 1;
+        public string name = "sirisha";
+        public string location = "kaviti";
+        public string moblie = "123456789";
+    }
+    public class headoffice : employeeinto
+    {
+        public string branch = "kaviti";
+        public string state = "ap";
+
+        internal void Display()
+        {
+            Console.WriteLine("your id is " + id);
+            Console.WriteLine("your name is " + name);
+            Console.WriteLine("your location is " + location);
+            Console.WriteLine("your moblie number is " + moblie);
+            Console.WriteLine("your branch is " + branch);
+            Console.WriteLine("your state is " + state);
+        }
+        class program
+        {
+            static void Main(string[] args)
+            {
+                headoffice obj = new headoffice();
+                obj.Display();
+                Console.ReadLine();
+            }
+
+
+        }
+    }
